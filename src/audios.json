@@ -1,0 +1,722 @@
+[
+  {
+    "name": "Art",
+    "text": "Art's account added admin access applications, allowing additional advertisement adds, advertising awareness.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/art.mp3",
+    "targetedletters": ["a"]
+  },
+  {
+    "name": "Barry",
+    "text": "Baby brown Barry bear brought baby Brian beaver big bright blue berries before baby Brenda beaver brought bark.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/barry.mp3",
+    "targetedletters": ["b"]
+  },
+  {
+    "name": "Beer",
+    "text": "Ben bought Betty butter beer, but Betty thought the butter beer was bitter, Ben better butter up Betty by buying Betty better butter beer.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/beer.mp3",
+    "targetedletters": ["b"]
+  },
+  {
+    "name": "Boar",
+    "text": "A boring boar bores boards in Bora Bora.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/boar.mp3",
+    "targetedletters": ["b"]
+  },
+  {
+    "name": "Cassidy",
+    "text": "Cassidy's computer capacity can cause concerns constantly collecting cookies.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/cassidy.mp3",
+    "targetedletters": ["c"]
+  },
+  {
+    "name": "Cheese",
+    "text": "Chuck chuckled when Chase chose a chunk of cheap cheddar cheese.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/cheese.mp3",
+    "targetedletters": ["ch"]
+  },
+  {
+    "name": "Clowns",
+    "text": "The clever clowns club claims clean coal.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/clowns.mp3",
+    "targetedletters": ["c"]
+  },
+  {
+    "name": "Dessert",
+    "text": "During a desert dinner, Danner didn't dare devour Donna's double Dutch dark cacao dessert.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/dessert.mp3",
+    "targetedletters": ["d"]
+  },
+  {
+    "name": "Donald",
+    "text": "Dorky Donald dumps DACA deports dreamers, dams diversity development and delights dopy delusional donkeys.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/donald.mp3",
+    "targetedletters": ["d"]
+  },
+  {
+    "name": "Dude",
+    "text": "Dude, did Dug's deaf dog dig dad's dyke?",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/dude.mp3",
+    "targetedletters": ["d"]
+  },
+  {
+    "name": "Eddie",
+    "text": "Every Easter, Eddie eagerly eats eighty elegant Easter eggs.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/eddie.mp3",
+    "targetedletters": ["e"]
+  },
+  {
+    "name": "Elephant",
+    "text": "Elegantly evading every element, Eddie elephant ended envying every element.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/elephant.mp3",
+    "targetedletters": ["e"]
+  },
+  {
+    "name": "Fellows",
+    "text": "Fisher fried four fine fresh fish for four friendly famished fellows.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/fellows.mp3",
+    "targetedletters": ["f"]
+  },
+  {
+    "name": "Fisher",
+    "text": "Fisherman Fisher, was fishing for fish in the fissure, feeling fatigued, Fisher fell in the fissure, now friends of fisherman Fisher fish for Fisher.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/fisher.mp3",
+    "targetedletters": ["f"]
+  },
+  {
+    "name": "Food",
+    "text": "Fit or fat, furiously fun food fights.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/food.mp3",
+    "targetedletters": ["f"]
+  },
+  {
+    "name": "Freddy fox",
+    "text": "Freddy fox found five friendly fruit flies frantically fearing four famished frogs.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/freddyfox.mp3",
+    "targetedletters": ["f"]
+  },
+  {
+    "name": "Frida",
+    "text": "Frida flew face first, forty feet from frog fright, fracturing four fingers.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/frida.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  }
+]
