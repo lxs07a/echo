@@ -8,6 +8,7 @@ import LoginForm from './components/login-form'
 import Navbar from './components/navbar'
 import Home from './components/home'
 import Primarylist from './components/primarylist'
+import ItemPage from './components/itempage'
 
 class App extends Component {
   constructor() {
@@ -82,14 +83,18 @@ class App extends Component {
         <Route
           path="/primarylist"
           render={() =>
-            <Primarylist
-              primarylist={this.primarylist}
-              audios={this.audios}
-
-            />}
+            <Primarylist/>}
         />
-
-
+        <Route
+          path="/itempage/:name"
+          render={(props) => {
+            var audioObject = this.state.audios.filter((audio)=> audio.name === props.match.params.name)
+            return <ItemPage
+              audioObject={audioObject}
+            />}
+          }
+      
+        />
       </div>
     );
   }

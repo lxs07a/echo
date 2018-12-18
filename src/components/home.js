@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <div>
                 <Link to="/primarylist" className="btn">
-                    <span className="text-secondary">twist it</span>
+                    <span>twist it</span>
                 </Link>
             </div>
         )
