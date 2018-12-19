@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const User = require('../database/models/user')
-const Audio = require('../database/models/audio')
 const passport = require('../passport')
 
 router.post('/', (req, res) => {

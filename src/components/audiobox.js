@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom'
-import AudioRecorder from 'react-audio-recorder';
 
 class AudioBox extends Component {
 
@@ -27,18 +26,19 @@ class AudioBox extends Component {
     // }
 
     return (
+      <Link to={'/itempage/'+ this.props.name} name={this.props.name} audiopath={this.props.audiopath}>
       <div className = "container">
         <div className="row track-item">
           <div className="col-lg-8">
-            <p><Link to={'/itempage/'+ this.props.name} name={this.props.name} audiopath={this.props.audiopath} className="btn">{this.props.name}</Link></p>
+            <p>{this.props.name}</p>
             <audio controls controlsList="nodownload">
               <source src={this.props.audiopath} type="audio/mpeg"/>
               the browser is freaking out
             </audio>
-            <AudioRecorder/>
           </div>
         </div>
       </div>
+      </Link>
 
       /* <div className="box">
           <article className="media">

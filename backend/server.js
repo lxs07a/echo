@@ -4,9 +4,11 @@ const morgan = require('morgan')
 const session = require('express-session')
 const dbConnection = require('./database') 
 const MongoStore = require('connect-mongo')(session)
-const passport = require('./passport');
+const passport = require('./passport')
+var multer  = require('multer')
 const app = express()
 const PORT = 8080
+var cors = require('cors')
 
 
 
@@ -18,6 +20,14 @@ app.use(
 	})
 )
 app.use(bodyParser.json())
+
+app.use(express.static(__dirname + '/public'))
+
+app.use(cors())
+var corsOptions = {
+  origin: 'http://localhost:3000',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
 
 // Sessions
 app.use(
@@ -36,6 +46,7 @@ app.use(passport.session()) // calls the deserializeUser
 
 // Routes
 app.use('/user', require('./routes/user'))
+app.use('/audio', require('./routes/audio'))
 
 // Starting Server 
 app.listen(PORT, () => {

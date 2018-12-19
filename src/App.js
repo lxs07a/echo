@@ -9,6 +9,7 @@ import Navbar from './components/navbar'
 import Home from './components/home'
 import Primarylist from './components/primarylist'
 import ItemPage from './components/itempage'
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -54,6 +55,7 @@ class App extends Component {
   }
 
   render() {
+    var theState = this.state
     return (
       <div className="App">
    
@@ -88,9 +90,11 @@ class App extends Component {
         <Route
           path="/itempage/:name"
           render={(props) => {
+            debugger
             var audioObject = this.state.audios.filter((audio)=> audio.name === props.match.params.name)
             return <ItemPage
               audioObject={audioObject}
+              username={theState.username}
             />}
           }
       
