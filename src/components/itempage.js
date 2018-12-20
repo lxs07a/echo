@@ -3,7 +3,9 @@ import { ReactMic } from 'react-mic';
 import './itempage.css';
 import axios from 'axios'
 import RecordingBox from './recordingbox.js'
+import config from "../config.json"
 var usersRecordings = []
+
 
 class ItemPage extends Component {
 
@@ -20,10 +22,8 @@ class ItemPage extends Component {
     this.onStop = this.onStop.bind(this)
   }
 
-  
-
   componentDidMount() {
-    axios.post('http://localhost:8080/audio/recordings', {
+    axios.post(`${config.backendUrl}/audio/recordings`, {
       username: this.props.username,
       audioname: this.props.audioObject[0].name,
       withCredentials: true
@@ -33,7 +33,7 @@ class ItemPage extends Component {
           if (response.status === 200) {
               // update state
               var usersRecordings = this.state.recordings
-              usersRecordings.push(response.data)
+              usersRecordings = response.data
               console.log("usersRecordings is " + usersRecordings)
               this.setState({
                   recordings: usersRecordings
@@ -71,15 +71,16 @@ class ItemPage extends Component {
     fd.append("withCredentials", true)
 
     //send the recording and author to backend to store in the user's database
-    axios.post('http://localhost:8080/audio/itempage', fd
+    axios.post(`${config.backendUrl}/audio/itempage`, fd
       )
       .then(response => {
           console.log('recording sent to backend ')
           console.log("response is " + response)
           if (response.status === 200) {
               // update state
-              var newRecordings = this.state.recordings[0]
+              var newRecordings = this.state.recordings
               newRecordings.push(response.data)
+              debugger
               console.log("newRecordings is " + newRecordings)
               this.setState({
                   recordings: newRecordings
@@ -87,27 +88,22 @@ class ItemPage extends Component {
               console.log("this.state.recordings is " + this.state.recordings)
           }
       }).catch(error => {
-          console.log('login error: ')
-          console.log(error);
-          
+          console.log(error);          
       })
   }
 
   render () {
-    var Recordings
-    if(typeof this.state.recordings[0] != "undefined") {
-      var typeofrec = typeof this.state.recordings[0]
-      console.log(typeofrec)
-     Recordings = this.state.recordings[0].map((recording) => {
+
+     var Recordings = this.state.recordings.map((recording) => {
       return (<RecordingBox 
         timedate={recording.timedate} 
         audiopath={recording.audiopath}/>)
     })
-  }
+  
     return (
       <div className = "container">
         <div className="row track-item">
-          <div className="col-lg-8">
+          <div className="col-lg-12">
             <h5><strong>{this.props.audioObject[0].name}</strong></h5>
             <p>{this.props.audioObject[0].text}</p>
             <audio controls controlsList="nodownload">

@@ -23,10 +23,11 @@ router.post('/itempage', type, function (req, res) {
 })
 
 router.post('/recordings', (req, res) => {
-    //const username = req.session.passport.user.username
+    debugger
+    const username = req.session.passport.user.username
     console.log("backend received request for recordings")
     const name = req.body.audioname
-    const username = req.body.username
+    //const username = req.body.username
     console.log("req.body.username is " + req.body.username)
     console.log("req.body.audioname is " + req.body.audioname)
     // ADD VALIDATION

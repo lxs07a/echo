@@ -6,8 +6,9 @@ const User = require('../database/models/user')
 passport.serializeUser((user, done) => {
 	console.log('*** serializeUser called, user: ')
 	console.log(user) // the whole raw user object
+	debugger
 	console.log('---------')
-	done(null, { _id: user._id })
+	done(null, user)
 })
 
 // user object attaches to the request as req.user

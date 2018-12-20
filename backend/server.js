@@ -6,9 +6,11 @@ const dbConnection = require('./database')
 const MongoStore = require('connect-mongo')(session)
 const passport = require('./passport')
 var multer  = require('multer')
+var path  = require('path')
 const app = express()
-const PORT = 8080
 var cors = require('cors')
+var config = require('./config.json')
+const PORT = config.port
 
 
 
@@ -21,7 +23,6 @@ app.use(
 )
 app.use(bodyParser.json())
 
-app.use(express.static(__dirname + '/public'))
 
 app.use(cors())
 var corsOptions = {
@@ -47,6 +48,16 @@ app.use(passport.session()) // calls the deserializeUser
 // Routes
 app.use('/user', require('./routes/user'))
 app.use('/audio', require('./routes/audio'))
+
+app.use(express.static(__dirname + '/public'))
+
+if(config.environment == "production") {
+	console.log("Production")
+	app.use(express.static(path.join(__dirname, 'build')));
+	app.get('/', function(req, res) {
+		res.sendFile(path.join(__dirname, '/build', 'index.html'))
+	})
+}
 
 // Starting Server 
 app.listen(PORT, () => {

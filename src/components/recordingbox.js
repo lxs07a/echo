@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import config from "../config.json"
 
 class RecordingBox extends Component {
   //prettify timeDate
@@ -14,7 +15,7 @@ class RecordingBox extends Component {
           <div className="col-lg-8">
             <p>{newTime}</p>
             <audio controls controlsList="nodownload">
-              <source src={"http://localhost:8080/uploads/" + this.props.audiopath}/>
+              <source src={`${config.backendUrl}/uploads/` + this.props.audiopath}/>
               the browser is freaking out
             </audio>
           </div>

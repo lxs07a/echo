@@ -11,7 +11,7 @@ class Home extends Component {
 
         return (
             <div>
-                <Link to="/primarylist" className="btn twistit">
+                <Link to="/primarylist" className="twistit">
                     <span>twist it</span>
                 </Link>
             </div>

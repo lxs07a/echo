@@ -2,7 +2,7 @@ design
 audios.json
 
 bugs:
-displaying freshly recorded video doesn't work--doesnt' map on rerender
+on refresh "Cannot GET /itempage/Art"  
 search results play wrong sound
 
 

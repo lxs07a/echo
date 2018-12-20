@@ -192,7 +192,8 @@ body {
 }
 
 .twistit {
-  background: #fd4282;
-  color: #fff;
+  background-image: url("./twizzler.jpeg");
+  width: 10vw; 
+  color: black;
 }
 
