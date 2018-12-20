@@ -45,6 +45,7 @@
 
 body {
   margin: 0;
+  background: no-repeat center/80% url("./twizzler.jpeg");
 }
 
 /* Global */
@@ -192,7 +193,6 @@ body {
 }
 
 .twistit {
-  background-image: url("./twizzler.jpeg");
   width: 10vw; 
   color: black;
 }

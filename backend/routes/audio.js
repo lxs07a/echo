@@ -23,7 +23,6 @@ router.post('/itempage', type, function (req, res) {
 })
 
 router.post('/recordings', (req, res) => {
-    debugger
     const username = req.session.passport.user.username
     console.log("backend received request for recordings")
     const name = req.body.audioname

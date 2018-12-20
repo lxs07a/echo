@@ -80,7 +80,6 @@ class ItemPage extends Component {
               // update state
               var newRecordings = this.state.recordings
               newRecordings.push(response.data)
-              debugger
               console.log("newRecordings is " + newRecordings)
               this.setState({
                   recordings: newRecordings
