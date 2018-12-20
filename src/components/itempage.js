@@ -9,6 +9,7 @@ class ItemPage extends Component {
 
   constructor(props) {
     super(props);
+    
     this.state = {
       username: this.props.username,
       record: false,
@@ -16,20 +17,18 @@ class ItemPage extends Component {
       button2active: "",
       recordings: []
     }
-    debugger
     this.onStop = this.onStop.bind(this)
   }
 
   
 
   componentDidMount() {
-    debugger
     axios.post('http://localhost:8080/audio/recordings', {
       username: this.props.username,
-      audioname: this.props.audioObject[0].name
+      audioname: this.props.audioObject[0].name,
+      withCredentials: true
     })
       .then(response => {
-        debugger
           console.log("list of recordings from backend is " + response)
           if (response.status === 200) {
               // update state
@@ -41,8 +40,7 @@ class ItemPage extends Component {
               })
           }
       }).catch(error => {
-          console.log('login error: ')
-          console.log(error);
+          console.log(error)
           
       })
   }
@@ -65,8 +63,6 @@ class ItemPage extends Component {
   }
  
   onStop(recordedBlob) {
-    console.log('recordedBlob is: ', recordedBlob);
-    console.log('this user is ', this.state.username )
     var fd = new FormData()
 
     fd.append("upl", recordedBlob.blob)
@@ -82,12 +78,13 @@ class ItemPage extends Component {
           console.log("response is " + response)
           if (response.status === 200) {
               // update state
-              var newRecordings = this.state.recordings
-              newRecordings.push(response)
+              var newRecordings = this.state.recordings[0]
+              newRecordings.push(response.data)
               console.log("newRecordings is " + newRecordings)
               this.setState({
                   recordings: newRecordings
               })
+              console.log("this.state.recordings is " + this.state.recordings)
           }
       }).catch(error => {
           console.log('login error: ')
@@ -97,19 +94,16 @@ class ItemPage extends Component {
   }
 
   render () {
-    debugger
     var Recordings
     if(typeof this.state.recordings[0] != "undefined") {
+      var typeofrec = typeof this.state.recordings[0]
+      console.log(typeofrec)
      Recordings = this.state.recordings[0].map((recording) => {
-      debugger
       return (<RecordingBox 
         timedate={recording.timedate} 
         audiopath={recording.audiopath}/>)
     })
   }
-    
-
-    debugger
     return (
       <div className = "container">
         <div className="row track-item">

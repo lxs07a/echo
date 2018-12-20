@@ -84,20 +84,22 @@ class App extends Component {
         />
         <Route
           path="/primarylist"
-          render={() =>
-            <Primarylist/>}
+          render={(props) => {
+            return <Primarylist
+              loggedIn={this.state.loggedIn}
+              username={this.state.username}
+            />}
+          }
         />
         <Route
           path="/itempage/:name"
           render={(props) => {
-            debugger
             var audioObject = this.state.audios.filter((audio)=> audio.name === props.match.params.name)
             return <ItemPage
               audioObject={audioObject}
-              username={theState.username}
+              username={this.state.username}
             />}
-          }
-      
+          }      
         />
       </div>
     );

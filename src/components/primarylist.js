@@ -13,6 +13,7 @@ class Primarylist extends Component {
   }
 
   render() {
+    // const loggedIn = this.props.loggedIn;
 
     var AudioBoxes = this.state.audios
     .filter((audio)=> 
@@ -20,10 +21,11 @@ class Primarylist extends Component {
     )
     .map((audio) =>
       <AudioBox 
-        //addFood={this.addFoodsToday} 
         name={audio.name} 
-        //text={audio.text} 
-        audiopath={audio.audiopath}/>
+        audiopath={audio.audiopath}
+        loggedIn = {this.props.loggedIn}
+        username={this.props.username}
+        />
     )
 
     return (
@@ -34,28 +36,8 @@ class Primarylist extends Component {
           <h1><b>Tongue Twisters</b></h1>
           <br></br>
           <span>Search tongue twisters: </span><input onChange={this.handleChange} name="search" placeholder={this.state.search}/>
-            {/* <button onClick={this.toggleModal} className="button is-primary is-small modal-button" data-target="modal" aria-haspopup="true">Add Food</button>
-            <div className= {classNames}>
-              <div className="modal-background"></div>
-                <div className="modal-content">
-                  <input name="name" onChange={this.handleAdd}  placeholder={this.state.name}/>
-                  <input name="image" onChange={this.handleAdd}  placeholder={this.state.image}/>
-                  <input name="calories" onChange={this.handleAdd}  placeholder={this.state.calories}/>
-                </div>
-              <button onClick={this.toggleModal} className="modal-close is-large" aria-label="close"></button>
-              <button onClick={this.addIt} className="button is-primary is-large modal-button" data-target="modal" aria-haspopup="true">Add Food</button>
-            </div> */}
           {AudioBoxes}
         </section>
-        {/* <section className="selectedfood column">
-          <br/>
-          <h1><b>Today's Food</b></h1>
-          <br/>
-            <ul>
-              {foodiesOfToday}
-            </ul>
-            <p><b>Total: </b>{this.state.total} cal</p>
-        </section> */}
       </div>
     )
   }

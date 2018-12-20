@@ -1,1 +1,20 @@
-make a prettier timestamp (recordingbox.js or /routes/audio.js)
+design
+audios.json
+
+bugs:
+displaying freshly recorded video doesn't work--doesnt' map on rerender
+search results play wrong sound
+
+
+buttons
+
+set max time for recording
+
+login with fb?
+share on fb
+
+
+
+to be logged in, i have to start from home page... 
+(passing props from App.js)
+store username in req.session

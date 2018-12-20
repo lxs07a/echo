@@ -10,7 +10,7 @@ router.post('/itempage', type, function (req, res) {
   var currentDateTime = new Date()
   const newAudio = new Audio({
       author: req.body.author,
-      name: req.body.audioname,
+      name: req.body.name,
       timedate: currentDateTime,
       audiopath: req.file.filename
   })
@@ -23,29 +23,18 @@ router.post('/itempage', type, function (req, res) {
 })
 
 router.post('/recordings', (req, res) => {
-    const username = req.body.username
+    //const username = req.session.passport.user.username
+    console.log("backend received request for recordings")
     const name = req.body.audioname
+    const username = req.body.username
+    console.log("req.body.username is " + req.body.username)
+    console.log("req.body.audioname is " + req.body.audioname)
     // ADD VALIDATION
-    Audio.find({ }, (err, data) => {
-        debugger
+    Audio.find({name: name, author: username}, (err, data) => {
         if (err) console.log('audio.js post error: ', err)
         console.log(data)
         res.json(data)
     })
-    
-    // var currentDateTime = new Date()
-    // const newAudio = new Audio({
-    //     author: req.body.author,
-    //     name: req.body.audioname,
-    //     timedate: currentDateTime,
-    //     audiopath: req.file.filename
-    // })
-    // console.log(newAudio)
-    // newAudio.save((err, savedAudio) => {
-    //     if (err) return res.json(err)
-    //     console.log(savedAudio)
-    //     res.json(savedAudio)
-    // })
   })
 
 module.exports = router
