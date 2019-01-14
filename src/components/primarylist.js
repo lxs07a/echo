@@ -30,12 +30,12 @@ class Primarylist extends Component {
 
     return (
 
-      <div className="App columns">
+      <div className="App columns primarylist">
         <section className="audioboxes column">
           <br/>
-          <h1><b>Tongue Twisters</b></h1>
+          <h1 style={{color: "#697279"}}><b>Tongue Twisters</b></h1>
           <br></br>
-          <span>Search tongue twisters: </span><input onChange={this.handleChange} name="search" placeholder={this.state.search}/>
+          <span>Find: </span><input onChange={this.handleChange} name="search" placeholder={this.state.search}/>
           {AudioBoxes}
         </section>
       </div>

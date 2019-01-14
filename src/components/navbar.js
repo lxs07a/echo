@@ -2,13 +2,23 @@ import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
 import { Route, Link } from 'react-router-dom'
 import logo from '../logo.svg';
-//import '../App.css';
+import './navbar.css';
 import axios from 'axios'
 
 class Navbar extends Component {
     constructor() {
         super()
         this.logout = this.logout.bind(this)
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.state = {
+            collapsed: true,
+        }
+    }
+
+    toggleNavbar() {
+        this.setState({
+            collapsed: !this.state.collapsed,
+        })
     }
 
     logout(event) {
@@ -31,39 +41,46 @@ class Navbar extends Component {
         const loggedIn = this.props.loggedIn;
         console.log('navbar render, props: ')
         console.log(this.props);
+        const collapsed = this.state.collapsed;
+        const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+        const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         
         return (
-            <div>
-                <header className="navbar App-header d-flex flex-row" id="nav-container">
-                        <section className="navbar-section mr-auto p-2">
-                            <Link to="/" className="btn btn-link text-secondary">
-                                <img src={logo} className="App-logo" alt="logo" />
-                                <span className="text-secondary"><strong>EcHo</strong></span>
-                            </Link>
-                        </section>
-                        {loggedIn ? (
-                            <section className="navbar-section ml-auto p-2">
-                                <Link to="#" className="btn btn-link text-secondary" onClick={this.logout}>
-                                    <span className="text-secondary">logout</span>
-                                    <svg className="jss075" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path fill="#A9B7B7" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg>
-                                </Link>
-
-                            </section>
+            <nav className="navbar navbar-expand-l navbar-dark bg-dark">
+                <Link to="/" className="navbar-brand">
+                    <img src={logo} width="30" height="30" className="d-inline-block align-top " alt="logo" />
+                    <strong className="text-secondary">EcHo</strong>
+                </Link>
+                <button onClick={this.toggleNavbar} className={`${classTwo} navbar-toggler my-toggler`}  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+                    {loggedIn ? (
+                        <div className={`${classOne}`} id="navbarSupportedContent">
+                            <ul className="navbar-nav ml-auto">
+                                <li className="nav-item">
+                                    <Link to="#" className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={this.logout}>
+                                        <span className="text-secondary">logout</span>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
                         ) : (
-                                <section className="navbar-section ml-auto p-2">
-                                    <Link to="/login" className="btn btn-link text-secondary">
+                        <div className={`${classOne}`} id="navbarSupportedContent">
+                            <ul className="navbar-nav ml-auto">
+                                <li className="nav-item">
+                                    <Link to="/login" className="nav-link" data-target=".navbar-collapse.show" onClick={this.toggleNavbar} className={`${classTwo}`}>
                                         <span className="text-secondary">log in</span>
-				                    </Link>
-                                    <Link to="/signup" className="btn btn-link">
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/signup" className="nav-link" data-target=".navbar-collapse.show">
                                         <span className="text-secondary">sign up</span>
-				                    </Link>
-                                </section>
-                            )}
-                </header>
-            </div>
-
-        );
-
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    )}  
+            </nav>
+        )
     }
 }
 

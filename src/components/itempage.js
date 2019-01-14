@@ -100,8 +100,9 @@ class ItemPage extends Component {
     })
   
     return (
-      <div className = "container">
+      <div className = "container itempage">
         <div className="row track-item">
+
           <div className="col-lg-12">
             <h5><strong>{this.props.audioObject[0].name}</strong></h5>
             <p>{this.props.audioObject[0].text}</p>
@@ -110,15 +111,19 @@ class ItemPage extends Component {
               the browser is freaking out
             </audio>
           </div>
-          <h5>Your {this.props.audioObject[0].name}</h5>
-          {Recordings}
-          <div>
+
+          <div className="col-lg-12">
+            <h5><strong>Your {this.props.audioObject[0].name}</strong></h5>
+            {Recordings}
+          </div>
+
+          <div className="col-lg-12 recorder">
             <ReactMic
               record={this.state.record}
               className="sound-wave"
               onStop={this.onStop}
-              strokeColor="#000000"
-              backgroundColor="#FF4081" />
+              strokeColor="white"
+              backgroundColor="#2c4780" />
             <div>
               <div className="buttondiv">
                 <button className={`micbutton ${this.state.button1active}`} onClick={this.startRecording} type="button">

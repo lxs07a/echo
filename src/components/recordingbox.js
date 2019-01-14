@@ -12,7 +12,7 @@ class RecordingBox extends Component {
     return (
       <div className = "container">
         <div className="row track-item">
-          <div className="col-lg-8">
+          <div className="col-lg-12">
             <p>{newTime}</p>
             <audio controls controlsList="nodownload">
               <source src={`${config.backendUrl}/uploads/` + this.props.audiopath}/>

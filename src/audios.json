@@ -99,11 +99,371 @@
     "name": "Frida",
     "text": "Frida flew face first, forty feet from frog fright, fracturing four fingers.",
     "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/frida.mp3",
+    "targetedletters": ["f"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Silly",
+    "text": "Silly Sally said she sank a submarine throwing sea shells by the sea shore.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/silly.mp3",
+    "targetedletters": ["sh", "s"]
+  },
+  {
+    "name": "Fries",
+    "text": "Four French flies found four fresh fries.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/fries.mp3",
+    "targetedletters": ["f", "r"]
+  },
+  {
+    "name": "Giant",
+    "text": "The jolly giant juggling giant jars of jelly got the giggles watching jello jiggle.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/giant.mp3",
+    "targetedletters": ["j"]
+  },
+  {
+    "name": "Gnome",
+    "text": "No nose knows like a gnome's nose knows.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/gnome.mp3",
+    "targetedletters": ["n"]
+  },
+  {
+    "name": "Grapes",
+    "text": "Great Greek grape growers grow great giant green grapes.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/grapes.mp3",
+    "targetedletters": ["g"]
+  },
+  {
+    "name": "Greek",
+    "text": "The great Greek growers gifted grounded greasy grains.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/greek.mp3",
+    "targetedletters": ["g"]
+  },
+  {
+    "name": "Hands",
+    "text": "Hank and Helen held hands, heading home.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/hands.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Happy hippo",
+    "text": "Happy hippie hippo hopping home hungry is hoping his hippie hippo honey has hazelnut hummus.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/happyhippo.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Harry",
+    "text": "Here's hairy Harry holding his huge hairy hare, having hotdogs with Hugh, Hellen and Heidi.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/harry.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Hats",
+    "text": "Harry has huge hats.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/hats.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Hippo",
+    "text": "Hungry hippo has hiccups.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/hippo.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Hue",
+    "text": "Who has Hugo's hair hue?",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/hue.mp3",
+    "targetedletters": ["h"]
+  },
+  {
+    "name": "Jello",
+    "text": "Juggling yeti giggles juggling yellow jello.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/jello.mp3",
+    "targetedletters": ["j"]
+  },
+  {
+    "name": "Kate",
+    "text": "Kate caught cute kitty cats quietly cuddling in the corner.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/kate.mp3",
+    "targetedletters": ["k"]
+  },
+  {
+    "name": "King",
+    "text": "King Ken's kingdom couldn't quite keep count of queen Kim's cake consumption.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/king.mp3",
+    "targetedletters": ["k"]
+  },
+  {
+    "name": "Knows",
+    "text": "Nick too knows not to knock tonight too.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/knows.mp3",
+    "targetedletters": ["n"]
+  },
+  {
+    "name": "Lemur",
+    "text": "Later after a large leafy lunch, lively Lili lemur likes licking little lemon lime lollipops.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lemur.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Logan",
+    "text": "Logan's login lagged, leaving Lili Little lingering lonely in the lobby.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/logan.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lorey",
+    "text": "Leary Lorey read Larry's yellow ledger.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lorey.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Meg",
+    "text": "Mom made Meg mend Matt's mug.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/meg.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Meringue",
+    "text": "Merry Mary mailed mean mailman Melvin many melon meringues.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/meringue.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Mining",
+    "text": "Mina made many mini minions mine many more mini mines.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/mining.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Moldy",
+    "text": "Joking Molly yelling yummy moldy mellow yellow jello.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/moldy.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Moms",
+    "text": "Many mommies must miss messy messes.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/moms.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Monk",
+    "text": "Most Mondays monk Max must mix moose musk.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/monk.mp3",
+    "targetedletters": ["m"]
+  },
+  {
+    "name": "Nana",
+    "text": "Nana Nina's nene nibbles nuts.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/nana.mp3",
+    "targetedletters": ["n"]
+  },
+  {
+    "name": "Nenes",
+    "text": "Nosy nana's noisy neighbors now know nana's nine noisy nenes.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/nannies.mp3",
+    "targetedletters": ["n"]
+  },
+  {
+    "name": "Newsmen",
+    "text": "Newsmen knew men normal men never knew.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/newsmen.mp3",
+    "targetedletters": ["n"]
+  },
+  {
+    "name": "Oars",
+    "text": "Our own odd oak oars.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/oars.mp3",
+    "targetedletters": ["o"]
+  },
+  {
+    "name": "Oils",
+    "text": "Old Ollie oils our old oak oars.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/oils.mp3",
+    "targetedletters": ["o"]
+  },
+  {
+    "name": "Panda",
+    "text": "Putting panda put his putter in the puddle.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/panda.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Penny",
+    "text": "Penny pinching penny paid peanuts purchasing purple punch pitchers.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/penny.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Peter",
+    "text": "Picky Peter Pickens pricked his pinkie picking purple prickly pears.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/peter.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Phil",
+    "text": "Forgetful Phil found four funky photos fondling folders, Friday.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/phil.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Pirate",
+    "text": "Peter pirate printed private pirate party pamphlets.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/pirate.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Plums",
+    "text": "Please place plenty plain plum plants plus a pair of plumed plant pliers and one plush plug on the purple plane.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/plums.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Putt-putt",
+    "text": "Paola Panda playing putt-putt putted pudding, putting pudding in the pond",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/puttputt.mp3",
+    "targetedletters": ["p"]
+  },
+  {
+    "name": "Rabbits",
+    "text": "Ricky and Robert Rabbit recklessly racing, rammed Roger Ram right on the rear.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/rabbits.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Rhinos",
+    "text": "Really rough rugged rhinos rudely run around Rwanda's rural roads.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/rhinos.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Rich",
+    "text": "Which ditch did Rich dig?",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/rich.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Riley",
+    "text": "Riley rarely rules real rear wheel rallies",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/riley.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Roma",
+    "text": "Ron ran rings around the Roman ruins.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/roman.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Rwanda",
+    "text": "Rwanda rarely really rallies rambunctious rhinos.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/rwanda.mp3",
+    "targetedletters": ["r"]
+  },
+  {
+    "name": "Solomon",
+    "text": "Sad Solomon sat in solemn silence since Sally sold Salomon's salmon.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/salomon.mp3",
+    "targetedletters": ["s"]
+  },
+  {
+    "name": "Sam",
+    "text": "Some say Sam sings some semi-sad songs, some say Sam sings some silly songs. Sad or silly, soon someday some will say Sam sings some satisfying songs.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/sam.mp3",
+    "targetedletters": ["s"]
+  },
+  {
+    "name": "Sanders",
+    "text": "Sundays Sandy Sanders sells sanded cedar that Sandy Sanders's son Sander Sanders sands on Sundays.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/sanders.mp3",
+    "targetedletters": ["s"]
+  },
+  {
+    "name": "Sandwich",
+    "text": "A sea witch, which was wishing for a sandwich, saw a sandwich on the sand, which was sent to the sea witch by a sane witch, which was sitting on the sand.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/sandwich.mp3",
+    "targetedletters": ["s"]
+  },
+  {
+    "name": "Seagulls",
+    "text": "Six sick seagulls sipping seaweed soup sit silently soaking some Sunday sun.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/seagulls.mp3",
+    "targetedletters": ["s"]
+  },
+  {
+    "name": "Seesaw",
+    "text": "Seely saw the same seesaw Sam See saw.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/seesaw.mp3",
     "targetedletters": ["l"]
   },
   {
     "name": "Lulu",
-    "text": "Lulu lama loves lemon lime leaves",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
+    "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
+    "targetedletters": ["l"]
+  },
+  {
+    "name": "Lulu",
+    "text": "Lulu lama loves lemon lime leaves.",
     "audiopath": "https://s3-us-west-1.amazonaws.com/devlyuda/lulu.mp3",
     "targetedletters": ["l"]
   }
